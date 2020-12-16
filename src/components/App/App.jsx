@@ -44,7 +44,8 @@ class App extends Component {
 
     render() {
 
-        const {filter, showLogo, contactExist} = this.state;
+        const {showLogo, contactExist} = this.state;
+        const {filter} = this.props;
         const searchedContacts = this.findContact();
 
         return (
