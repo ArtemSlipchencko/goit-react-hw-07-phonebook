@@ -13,7 +13,6 @@ class App extends Component {
 
     state = {
         showLogo: false,
-        filter: '',
         contactExist: false
     };
 
